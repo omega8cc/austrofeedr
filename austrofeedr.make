@@ -1,4 +1,4 @@
-; recruiter profile make file
+; austrofeedr profile make file
 core = 7.x
 api = 2
 
@@ -67,7 +67,7 @@ projects[link][download][type] = git
 projects[link][download][url] = git://git.drupalcode.org/project/link.git
 projects[link][download][branch] = 7.x-1.x
 
-; Add recruiter feature modules.
-projects[recruiter_features][type] = module
-projects[recruiter_features][download][type] = git
-projects[recruiter_features][download][url] = ssh://gitosis@git.epiqo.com:50022/recruiter_features.git
+; Add austrofeedr feature modules.
+projects[austrofeedr_features][type] = module
+projects[austrofeedr_features][download][type] = git
+projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git

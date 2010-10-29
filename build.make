@@ -9,8 +9,8 @@ projects[drupal][type] = core
 projects[drupal][download][type] = git 
 projects[drupal][download][url] = ssh://gitosis@git.epiqo.com:50022/drupal.git
 
-; Use internal recruiter repository
-; Recursion will build the recruiter.make file found there for us.
-projects[recruiter][type] = profile
-projects[recruiter][download][type] = git
-projects[recruiter][download][url] = ssh://gitosis@git.epiqo.com:50022/recruiter.git
+; Use internal austrofeedr repository
+; Recursion will build the austrofeedr.make file found there for us.
+projects[austrofeedr][type] = profile
+projects[austrofeedr][download][type] = git
+projects[austrofeedr][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr.git

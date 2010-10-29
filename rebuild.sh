@@ -27,7 +27,7 @@ if [ -f austrofeedr.make ]; then
   elif [ $SELECTION = "2" ]; then
 
     # Generate a complete tar.gz of Drupal + Austrofeedr
-    echo "Building Recruiter distribution..."
+    echo "Building austrofeedr distribution..."
 
     drush make --prepare-install --working-copy --yes build.make $DIR && echo "Done. Distribution can be found in the director $DIR."
   else

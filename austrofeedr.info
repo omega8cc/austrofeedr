@@ -1,6 +1,6 @@
 ; $Id: standard.info,v 1.1 2010/01/04 23:08:34 webchick Exp $
-name = Recruiter
-description = Install recruiter distribution.
+name = austrofeedr
+description = Install austrofeedr distribution.
 version = VERSION
 core = 7.x
 
@@ -31,10 +31,10 @@ dependencies[] = rdf
 dependencies[] = rules
 dependencies[] = rules_admin
 
-; Install the recruiter modules.
-dependencies[] = recruiter_common
-dependencies[] = recruiter_job
-dependencies[] = recruiter_resume
+; Install the austrofeedr modules.
+dependencies[] = austrofeedr_common
+dependencies[] = austrofeedr_job
+dependencies[] = austrofeedr_resume
 
 
-files[] = recruiter.profile
+files[] = austrofeedr.profile

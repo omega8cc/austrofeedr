@@ -5,13 +5,17 @@ api = 2
 
 ; For now use the latest dev version of some modules via Git.
 
+; Infrastructure
+
 projects[views][type] = module
 projects[views][download][type] = git
 projects[views][download][url] = git://git.drupalcode.org/project/views.git
 projects[views][download][branch] = 7.x-3.x
 
-; Use the latest ctools release.
 projects[ctools][type] = module
+projects[ctools][download][type] = git
+projects[ctools][download][url] = git://git.drupalcode.org/project/ctools.git
+projects[ctools][download][branch] = 7.x-1.x
 
 projects[entity][type] = module
 projects[entity][download][type] = git
@@ -23,40 +27,24 @@ projects[rules][download][type] = git
 projects[rules][download][url] = git://git.drupalcode.org/project/rules.git
 projects[rules][download][branch] = 7.x-2.x
 
-projects[profile2][type] = module
-projects[profile2][download][type] = git
-projects[profile2][download][url] = git://git.drupalcode.org/project/profile2.git
-projects[profile2][download][branch] = 7.x-1.x
-
 projects[features][type] = module
 projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git
 projects[features][download][branch] = 7.x-1.x
 
+; Aggregation
 
-projects[addressfield][type] = module
-projects[addressfield][download][type] = git
-projects[addressfield][download][url] = git://git.drupalcode.org/project/addressfield.git
+projects[feeds][type] = module
+projects[feeds][download][type] = git
+projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
+projects[feeds][download][branch] = 7.x-2.x
 
-projects[email][type] = module
-projects[email][download][type] = git
-projects[email][download][url] = git://git.drupalcode.org/project/email.git
-projects[email][download][branch] = 7.x-1.x
+projects[job_scheduler][type] = module
+projects[job_scheduler][download][type] = git
+projects[job_scheduler][download][url] = git://git.drupalcode.org/project/job_scheduler.git
+projects[job_scheduler][download][branch] = 7.x-2.x
 
-projects[field_collection][type] = module
-projects[field_collection][download][type] = git
-projects[field_collection][download][url] = git://git.drupalcode.org/project/field_collection.git
-projects[field_collection][download][branch] = 7.x-1.x
-
-projects[search_api][type] = module
-projects[search_api][download][type] = git
-projects[search_api][download][url] = git://git.drupalcode.org/project/search_api.git
-projects[search_api][download][branch] = 7.x-1.x
-
-projects[term_level][type] = module
-projects[term_level][download][type] = git
-projects[term_level][download][url] = git://git.drupalcode.org/project/term_level.git
-projects[term_level][download][branch] = 7.x-1.x
+; Data
 
 projects[date][type] = module
 projects[date][download][type] = git

@@ -15,7 +15,7 @@ projects[views][download][branch] = 7.x-3.x
 projects[ctools][type] = module
 projects[ctools][download][type] = git
 projects[ctools][download][url] = git://git.drupalcode.org/project/ctools.git
-projects[ctools][download][branch] = 7.x-1.x
+;projects[ctools][download][branch] = 7.x-1.x
 
 projects[entity][type] = module
 projects[entity][download][type] = git

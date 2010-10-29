@@ -68,6 +68,6 @@ projects[link][download][url] = git://git.drupalcode.org/project/link.git
 projects[link][download][branch] = 7.x-1.x
 
 ; Add austrofeedr feature modules.
-;projects[austrofeedr_features][type] = module
-;projects[austrofeedr_features][download][type] = git
-;projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git
+projects[austrofeedr_features][type] = module
+projects[austrofeedr_features][download][type] = git
+projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git

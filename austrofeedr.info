@@ -32,6 +32,7 @@ dependencies[] = rules
 dependencies[] = rules_admin
 
 ; Install the austrofeedr modules.
-
+dependencies[] = austrofeedr_aggregation
+dependencies[] = austrofeedr_publishing
 
 files[] = austrofeedr.profile

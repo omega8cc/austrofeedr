@@ -414,12 +414,15 @@ function austrofeedr_install() {
     ->execute();
 
   // Create a Home link in the main menu.
+	// Menus will be added by features
+	/*
   $item = array(
     'link_title' => 'Home',
     'link_path' => '<front>',
     'menu_name' => 'main-menu',
   );
   menu_link_save($item);
+  */
 
   // Update the menu router information.
   menu_rebuild();
@@ -432,4 +435,7 @@ function austrofeedr_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
+	
+	// AustroFeedr custom
+	variable_set('site_frontpage', 'updates_overview');
 }

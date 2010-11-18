@@ -60,6 +60,11 @@ projects[taxonomy_csv][download][type] = git
 projects[taxonomy_csv][download][url] = git://git.drupalcode.org/project/taxonomy_csv.git
 projects[taxonomy_csv][download][branch] = master
 
+projects[taxonomy_manager][type] = module
+projects[taxonomy_manager][download][type] = git
+projects[taxonomy_manager][download][url] = git://git.drupalcode.org/project/taxonomy_manager.git
+projects[taxonomy_manager][download][branch] = 7.x-1.x
+
 ; Add austrofeedr feature modules.
 projects[austrofeedr_features][type] = module
 projects[austrofeedr_features][download][type] = git

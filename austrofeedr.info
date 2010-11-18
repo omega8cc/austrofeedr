@@ -30,6 +30,7 @@ dependencies[] = rdf
 ; Install contributed modules.
 dependencies[] = rules
 dependencies[] = rules_admin
+dependencies[] = taxonomy_csv
 
 ; Install the austrofeedr modules.
 dependencies[] = austrofeedr_aggregation

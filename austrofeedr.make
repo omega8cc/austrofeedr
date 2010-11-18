@@ -2,7 +2,6 @@
 core = 7.x
 api = 2
 
-
 ; For now use the latest dev version of some modules via Git.
 
 ; Infrastructure
@@ -65,7 +64,13 @@ projects[taxonomy_manager][download][type] = git
 projects[taxonomy_manager][download][url] = git://git.drupalcode.org/project/taxonomy_manager.git
 projects[taxonomy_manager][download][branch] = 7.x-1.x
 
+;projects[views_bulk_operations][type] = module
+;projects[views_bulk_operations][download][type] = git
+;projects[views_bulk_operations][download][url] = git://git.drupalcode.org/project/views_bulk_operations.git
+;projects[views_bulk_operations][download][branch] = 7.x-3.x
+
 ; Add austrofeedr feature modules.
+
 projects[austrofeedr_features][type] = module
 projects[austrofeedr_features][download][type] = git
 projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git

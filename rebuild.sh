@@ -15,6 +15,7 @@ if [ -f austrofeedr.make ]; then
   echo -e "a complete austrofeedr distribution.\n\nWhich would you like?"
   echo "  [1] Rebuild in place (without drupal)."
   echo "  [2] Build a full distribution"
+  echo "  [3] git pull all modules"
   echo -e "Selection: \c"
   read SELECTION
 
@@ -30,6 +31,14 @@ if [ -f austrofeedr.make ]; then
     echo "Building austrofeedr distribution..."
 
     drush make --prepare-install --working-copy --yes build.make $DIR && echo "Done. Distribution can be found in the director $DIR."
+  elif [ $SELECTION = "3" ]; then
+
+    for dir in modules/*
+    do
+      (cd $dir && git pull)
+    done
+    cd ../..
+
   else
    echo "Invalid selection."
   fi

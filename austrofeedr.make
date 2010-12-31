@@ -84,7 +84,7 @@ projects[openlayers][download][url] = git://git.drupalcode.org/project/openlayer
 projects[openlayers][download][branch] = 7.x-2.x
 
 projects[geofield][type] = module
-projects[geofield][download][type] = git;
+projects[geofield][download][type] = git
 projects[geofield][download][url] = git://github.com/dasjo/geofield.git
 ;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
 ;projects[geofield][download][branch] = DRUPAL-7--1

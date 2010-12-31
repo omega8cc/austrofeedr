@@ -89,6 +89,11 @@ projects[geofield][download][url] = git://github.com/dasjo/geofield.git
 ;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
 ;projects[geofield][download][branch] = DRUPAL-7--1
 
+projects[mapbox][type] = module
+projects[mapbox][download][type] = git
+projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
+projects[mapbox][download][branch] = 7.x-2.x
+
 ; Devel
 
 projects[admin_menu][type] = module

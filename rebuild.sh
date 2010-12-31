@@ -33,10 +33,12 @@ if [ -f austrofeedr.make ]; then
     drush make --prepare-install --working-copy --yes build.make $DIR && echo "Done. Distribution can be found in the director $DIR."
   elif [ $SELECTION = "3" ]; then
     
+    echo "Updating modules"
     for dir in modules/*
     do
       (cd $dir && echo $(pwd) && git pull) #update modules
     done
+    echo "Updating core"
     (cd ../../ && echo $(pwd) && git pull && drush updatedb)  #update core + run db updates
 
   else

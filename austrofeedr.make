@@ -6,20 +6,12 @@ api = 2
 
 ; Infrastructure
 
-projects[views][type] = module
-projects[views][download][type] = git
-projects[views][download][url] = git://git.drupalcode.org/project/views.git
-projects[views][download][branch] = 7.x-3.x
-
-projects[ctools][type] = module
-projects[ctools][download][type] = git
-projects[ctools][download][url] = git://git.drupalcode.org/project/ctools.git
-;projects[ctools][download][branch] = 7.x-1.x
-
 projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
+;projects[entity][download][url] = git://github.com/fago/entity.git
+;projects[entity][download][branch] = DRUPAL-7--1
 
 projects[rules][type] = module
 projects[rules][download][type] = git
@@ -73,6 +65,37 @@ projects[taxonomy_manager][download][branch] = 7.x-1.x
 ;projects[views_bulk_operations][download][type] = git
 ;projects[views_bulk_operations][download][url] = git://git.drupalcode.org/project/views_bulk_operations.git
 ;projects[views_bulk_operations][download][branch] = 7.x-3.x
+
+; Publishing
+
+projects[views][type] = module
+projects[views][download][type] = git
+projects[views][download][url] = git://git.drupalcode.org/project/views.git
+projects[views][download][branch] = 7.x-3.x
+
+projects[ctools][type] = module
+projects[ctools][download][type] = git
+projects[ctools][download][url] = git://git.drupalcode.org/project/ctools.git
+;projects[ctools][download][branch] = 7.x-1.x
+
+projects[openlayers][type] = module
+projects[openlayers][download][type] = git
+projects[openlayers][download][url] = git://git.drupalcode.org/project/openlayers.git
+projects[openlayers][download][branch] = 7.x-2.x
+
+projects[geofield][type] = module
+projects[geofield][download][type] = git;
+projects[geofield][download][url] = git://github.com/dasjo/geofield.git
+;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
+;projects[geofield][download][branch] = DRUPAL-7--1
+
+; Devel
+
+projects[admin_menu][type] = module
+projects[admin_menu][download][type] = git
+projects[admin_menu][download][url] = git://git.drupalcode.org/project/admin_menu.git
+;projects[admin_menu][download][branch] = 7.x-3.x
+
 
 ; Add austrofeedr feature modules.
 

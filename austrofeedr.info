@@ -28,6 +28,7 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Install contributed modules.
+dependencies[] = admin_menu
 dependencies[] = rules
 dependencies[] = rules_admin
 dependencies[] = taxonomy_csv

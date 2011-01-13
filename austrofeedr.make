@@ -94,6 +94,10 @@ projects[mapbox][download][branch] = 7.x-2.x
 
 ; Devel
 
+projects[devel][type] = module
+projects[devel][download][type] = git
+projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
+
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = git://git.drupalcode.org/project/admin_menu.git

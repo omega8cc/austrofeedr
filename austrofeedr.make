@@ -10,8 +10,6 @@ projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
-;projects[entity][download][url] = git://github.com/fago/entity.git
-;projects[entity][download][branch] = DRUPAL-7--1
 
 projects[rules][type] = module
 projects[rules][download][type] = git

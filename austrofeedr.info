@@ -21,7 +21,7 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
+;dependencies[] = toolbar ; using admin menu instead, see blow
 dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
@@ -33,7 +33,17 @@ dependencies[] = rules_admin
 dependencies[] = taxonomy_csv
 
 ; Install the austrofeedr modules.
-dependencies[] = austrofeedr_aggregation
-dependencies[] = austrofeedr_publishing
+dependencies[] = austrofeedr_base_common
+dependencies[] = austrofeedr_base_aggregation
+dependencies[] = austrofeedr_base_publishing
+
+; Install the austrofeedr hochwasser use case modules.
+dependencies[] = austrofeedr_hochwasser_base
+dependencies[] = austrofeedr_hochwasser_messstellen_import
+dependencies[] = austrofeedr_hochwasser_messstellen_map
+
+; Install dev modules
+dependencies[] = devel
+dependencies[] = diff
 
 files[] = austrofeedr.profile

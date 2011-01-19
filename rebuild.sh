@@ -16,6 +16,7 @@ if [ -f austrofeedr.make ]; then
   echo "  [1] Rebuild in place (without drupal)."
   echo "  [2] Build a full distribution"
   echo "  [3] git pull all modules & core + run drush updatedb"
+  echo "  [4] git status all modules & core"
   echo -e "Selection: \c"
   read SELECTION
 
@@ -40,6 +41,17 @@ if [ -f austrofeedr.make ]; then
     done
     echo "Updating core"
     (cd ../../ && echo $(pwd) && git pull && drush updatedb)  #update core + run db updates
+
+
+  elif [ $SELECTION = "4" ]; then
+    
+    echo "Status modules"
+    for dir in modules/*
+    do
+      (cd $dir && echo $(pwd) && git status) #status modules
+    done
+    echo "Status core"
+    (cd ../../ && echo $(pwd) && git status)  #status core
 
   else
    echo "Invalid selection."

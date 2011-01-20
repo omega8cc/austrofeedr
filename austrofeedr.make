@@ -110,7 +110,6 @@ projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = git://git.drupalcode.org/project/admin_menu.git
 ;projects[admin_menu][download][branch] = 7.x-3.x
 
-
 ; Add austrofeedr feature modules.
 
 projects[austrofeedr_features][type] = module

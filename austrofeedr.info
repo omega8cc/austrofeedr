@@ -32,6 +32,7 @@ dependencies[] = admin_menu
 dependencies[] = rules
 dependencies[] = rules_admin
 dependencies[] = taxonomy_csv
+dependencies[] = feeds_ui
 
 ; Install the austrofeedr modules.
 dependencies[] = austrofeedr_base_common

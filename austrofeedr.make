@@ -37,7 +37,7 @@ projects[feeds][download][branch] = 7.x-2.x
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_0.patch"
 
 ; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_8.patch"
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_10.patch"
 
 
 projects[job_scheduler][type] = module

@@ -44,6 +44,9 @@ dependencies[] = austrofeedr_hochwasser_base
 dependencies[] = austrofeedr_hochwasser_messstellen_import
 dependencies[] = austrofeedr_hochwasser_messstellen_map
 
+; TODO, currently install manually because data import doesn't work during installation
+;dependencies[] = austrofeedr_hochwasser_data
+
 ; Install dev modules
 dependencies[] = devel
 dependencies[] = diff

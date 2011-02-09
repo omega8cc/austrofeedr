@@ -397,8 +397,6 @@ function austrofeedr_install() {
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
 
-  debug(user_permission_get_modules(), 'modules');
-
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
@@ -435,7 +433,7 @@ function austrofeedr_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
-	
+
 	// AustroFeedr custom
 	variable_set('site_frontpage', 'updates_overview');
 }

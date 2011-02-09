@@ -50,5 +50,7 @@ dependencies[] = austrofeedr_hochwasser_messstellen_map
 ; Install dev modules
 dependencies[] = devel
 dependencies[] = diff
+dependencies[] = openlayers_ui
+dependencies[] = views_ui
 
 files[] = austrofeedr.profile

@@ -36,7 +36,7 @@ dependencies[] = feeds_ui
 
 ; Install the austrofeedr modules.
 dependencies[] = austrofeedr_base_common
-dependencies[] = austrofeedr_base_aggregation
+dependencies[] = austrofeedr_base_subscription
 dependencies[] = austrofeedr_base_publishing
 
 ; Install the austrofeedr hochwasser use case modules.

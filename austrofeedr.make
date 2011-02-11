@@ -32,13 +32,10 @@ projects[feeds][type] = module
 projects[feeds][download][type] = git
 projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
 projects[feeds][download][branch] = 7.x-2.x
-
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_0.patch"
-
 ; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_10.patch"
-
 
 projects[job_scheduler][type] = module
 projects[job_scheduler][download][type] = git
@@ -87,6 +84,8 @@ projects[openlayers][type] = module
 projects[openlayers][download][type] = git
 projects[openlayers][download][url] = git://git.drupalcode.org/project/openlayers.git
 projects[openlayers][download][branch] = 7.x-2.x
+;OpenLayers - Address rendering changes in Views 3 and D7 http://drupal.org/node/1006652#comment-4038638
+projects[openlayers][patch][] = "http://drupal.org/files/issues/openlayers_1006652.0.patch"
 
 projects[geofield][type] = module
 projects[geofield][download][type] = git
@@ -98,6 +97,16 @@ projects[mapbox][type] = module
 projects[mapbox][download][type] = git
 projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
 projects[mapbox][download][branch] = 7.x-2.x
+
+projects[pusher][type] = module
+projects[pusher][download][type] = git
+projects[pusher][download][url] = git://github.com/dasjo/pusher.git
+projects[pusher][download][branch] = DRUPAL-7--1
+
+projects[push_hub][type] = module
+projects[push_hub][download][type] = git
+projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
+projects[push_hub][download][branch] = DRUPAL-7--1
 
 ; Devel
 

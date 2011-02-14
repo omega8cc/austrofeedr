@@ -23,7 +23,7 @@ projects[diff][download][branch] = 7.x-2.x
 
 ; Data
 
-projects[datastore][type] = profile
+projects[datastore][type] = module
 projects[datastore][download][type] = git
 ; @todo official datastore releaese
 projects[datastore][download][url] = ssh://gitosis@git.epiqo.com:50022/datastore.git

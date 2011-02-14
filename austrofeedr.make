@@ -23,6 +23,11 @@ projects[diff][download][branch] = 7.x-2.x
 
 ; Data
 
+projects[datastore][type] = profile
+projects[datastore][download][type] = git
+; @todo official datastore releaese
+projects[datastore][download][url] = ssh://gitosis@git.epiqo.com:50022/datastore.git
+
 projects[date][type] = module
 projects[date][download][type] = git
 projects[date][download][url] = git://git.drupalcode.org/project/date.git
@@ -54,7 +59,7 @@ projects[feeds][download][type] = git
 projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
 projects[feeds][download][branch] = 7.x-2.x
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_0.patch"
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"
 ; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_11.patch"
 

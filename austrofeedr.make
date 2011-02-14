@@ -11,11 +11,6 @@ projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
 
-projects[rules][type] = module
-projects[rules][download][type] = git
-projects[rules][download][url] = git://git.drupalcode.org/project/rules.git
-projects[rules][download][branch] = 7.x-2.x
-
 projects[features][type] = module
 projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git
@@ -25,22 +20,6 @@ projects[diff][type] = module
 projects[diff][download][type] = git
 projects[diff][download][url] = git://git.drupalcode.org/project/diff.git
 projects[diff][download][branch] = 7.x-2.x
-
-; Aggregation
-
-projects[feeds][type] = module
-projects[feeds][download][type] = git
-projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
-projects[feeds][download][branch] = 7.x-2.x
-; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_0.patch"
-; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_10.patch"
-
-projects[job_scheduler][type] = module
-projects[job_scheduler][download][type] = git
-projects[job_scheduler][download][url] = git://git.drupalcode.org/project/job_scheduler.git
-projects[job_scheduler][download][branch] = 7.x-2.x
 
 ; Data
 
@@ -68,7 +47,35 @@ projects[taxonomy_manager][download][branch] = 7.x-1.x
 ;projects[views_bulk_operations][download][url] = git://git.drupalcode.org/project/views_bulk_operations.git
 ;projects[views_bulk_operations][download][branch] = 7.x-3.x
 
-; Publishing
+; Subscription feature
+
+projects[feeds][type] = module
+projects[feeds][download][type] = git
+projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
+projects[feeds][download][branch] = 7.x-2.x
+; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_0.patch"
+; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_10.patch"
+
+projects[job_scheduler][type] = module
+projects[job_scheduler][download][type] = git
+projects[job_scheduler][download][url] = git://git.drupalcode.org/project/job_scheduler.git
+projects[job_scheduler][download][branch] = 7.x-2.x
+
+; Processing feature
+
+projects[rules][type] = module
+projects[rules][download][type] = git
+projects[rules][download][url] = git://git.drupalcode.org/project/rules.git
+projects[rules][download][branch] = 7.x-2.x
+
+projects[rules_autotag][type] = module
+projects[rules_autotag][download][type] = git
+projects[rules_autotag][download][url] = git://git.drupalcode.org/project/rules_autotag.git
+projects[rules_autotag][download][branch] = 7.x-1.x
+
+; Publishing feature
 
 projects[views][type] = module
 projects[views][download][type] = git

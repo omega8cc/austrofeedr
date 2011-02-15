@@ -27,13 +27,6 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-; Install contributed modules.
-dependencies[] = admin_menu
-dependencies[] = rules
-dependencies[] = rules_admin
-dependencies[] = taxonomy_csv
-dependencies[] = feeds_ui
-
 ; Install the austrofeedr modules.
 dependencies[] = austrofeedr_base_common
 dependencies[] = austrofeedr_base_subscription
@@ -49,9 +42,15 @@ dependencies[] = austrofeedr_hochwasser_messstellen_map
 ;dependencies[] = austrofeedr_hochwasser_data
 
 ; Install dev modules
+dependencies[] = admin_menu
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = taxonomy_csv
+dependencies[] = feeds_ui
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = openlayers_ui
 dependencies[] = views_ui
+dependencies[] = wsclient_ui
 
 files[] = austrofeedr.profile

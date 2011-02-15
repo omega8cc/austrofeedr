@@ -68,6 +68,16 @@ projects[job_scheduler][download][type] = git
 projects[job_scheduler][download][url] = git://git.drupalcode.org/project/job_scheduler.git
 projects[job_scheduler][download][branch] = 7.x-2.x
 
+projects[http_client][type] = module
+projects[http_client][download][type] = git
+projects[http_client][download][url] = git://git.drupalcode.org/project/http_client.git
+projects[http_client][download][branch] = 7.x-2.x
+
+projects[wsclient][type] = module
+projects[wsclient][download][type] = git
+projects[wsclient][download][url] = git://git.drupalcode.org/project/wsclient.git
+projects[wsclient][download][branch] = 7.x-1.x
+
 ; Processing feature
 
 projects[rules][type] = module

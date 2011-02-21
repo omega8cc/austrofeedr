@@ -77,6 +77,9 @@ projects[wsclient][type] = module
 projects[wsclient][download][type] = git
 projects[wsclient][download][url] = git://git.drupalcode.org/project/wsclient.git
 projects[wsclient][download][branch] = 7.x-1.x
+;WS Client - dates in ISO format http://drupal.org/node/1064454
+projects[wsclient][patch][] = "http://drupal.org/files/issues/wsclient_date_callback_0.patch"
+
 
 ; Processing feature
 
@@ -89,6 +92,9 @@ projects[rules_autotag][type] = module
 projects[rules_autotag][download][type] = git
 projects[rules_autotag][download][url] = git://git.drupalcode.org/project/rules_autotag.git
 projects[rules_autotag][download][branch] = 7.x-1.x
+;Rules autotag - initial review D7 http://drupal.org/node/1058432#comment-4079472
+projects[rules_autotag][patch][] = "http://drupal.org/files/issues/rules_autotag_refactoring_3.patch"
+
 
 ; Publishing feature
 
@@ -115,10 +121,10 @@ projects[geofield][download][url] = git://github.com/dasjo/geofield.git
 ;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
 ;projects[geofield][download][branch] = DRUPAL-7--1
 
-projects[mapbox][type] = module
-projects[mapbox][download][type] = git
-projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
-projects[mapbox][download][branch] = 7.x-2.x
+;projects[mapbox][type] = module
+;projects[mapbox][download][type] = git
+;projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
+;projects[mapbox][download][branch] = 7.x-2.x
 
 projects[pusher][type] = module
 projects[pusher][download][type] = git

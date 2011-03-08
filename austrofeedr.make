@@ -135,6 +135,8 @@ projects[push_hub][download][branch] = DRUPAL-7--1
 projects[devel][type] = module
 projects[devel][download][type] = git
 projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
+;WS Client - Rules debug action http://drupal.org/node/1085234
+projects[devel][patch][] = "http://drupal.org/files/issues/devel_rules_debug.patch"
 
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git

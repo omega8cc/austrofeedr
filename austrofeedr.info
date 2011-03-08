@@ -37,6 +37,8 @@ dependencies[] = austrofeedr_base_publishing
 dependencies[] = austrofeedr_hochwasser_base
 dependencies[] = austrofeedr_hochwasser_messstellen_import
 dependencies[] = austrofeedr_hochwasser_messstellen_map
+dependencies[] = austrofeedr_hochwasser_messwerte_list
+dependencies[] = austrofeedr_hochwasser_pegelaktuell_import
 
 ; TODO, currently install manually because data import doesn't work during installation
 ;dependencies[] = austrofeedr_hochwasser_data

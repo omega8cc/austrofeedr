@@ -25,7 +25,7 @@ projects[diff][download][branch] = 7.x-2.x
 
 projects[datastore][type] = module
 projects[datastore][download][type] = git
-; @todo official datastore releaese
+; @todo wait for official datastore releaese http://drupal.org/project/datastore
 projects[datastore][download][url] = ssh://gitosis@git.epiqo.com:50022/datastore.git
 
 projects[date][type] = module
@@ -92,9 +92,6 @@ projects[rules_autotag][type] = module
 projects[rules_autotag][download][type] = git
 projects[rules_autotag][download][url] = git://git.drupalcode.org/project/rules_autotag.git
 projects[rules_autotag][download][branch] = 7.x-1.x
-;Rules autotag - initial review D7 http://drupal.org/node/1058432#comment-4079472
-projects[rules_autotag][patch][] = "http://drupal.org/files/issues/rules_autotag_refactoring_3.patch"
-
 
 ; Publishing feature
 
@@ -112,14 +109,11 @@ projects[openlayers][type] = module
 projects[openlayers][download][type] = git
 projects[openlayers][download][url] = git://git.drupalcode.org/project/openlayers.git
 projects[openlayers][download][branch] = 7.x-2.x
-;OpenLayers - Address rendering changes in Views 3 and D7 http://drupal.org/node/1006652#comment-4038638
-projects[openlayers][patch][] = "http://drupal.org/files/issues/openlayers_1006652.0.patch"
 
 projects[geofield][type] = module
 projects[geofield][download][type] = git
-projects[geofield][download][url] = git://github.com/dasjo/geofield.git
-;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
-;projects[geofield][download][branch] = DRUPAL-7--1
+;projects[geofield][download][url] = git://github.com/dasjo/geofield.git
+projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
 
 ;projects[mapbox][type] = module
 ;projects[mapbox][download][type] = git

@@ -77,8 +77,6 @@ projects[wsclient][type] = module
 projects[wsclient][download][type] = git
 projects[wsclient][download][url] = git://git.drupalcode.org/project/wsclient.git
 projects[wsclient][download][branch] = 7.x-1.x
-;WS Client - dates in ISO format http://drupal.org/node/1064454
-projects[wsclient][patch][] = "http://drupal.org/files/issues/wsclient_date_callback_0.patch"
 
 
 ; Processing feature

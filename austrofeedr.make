@@ -16,7 +16,7 @@ projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git
 projects[features][download][branch] = 7.x-1.x
 
-; Data
+; Data modules.
 
 projects[datastore][type] = module
 projects[datastore][download][type] = git
@@ -47,7 +47,7 @@ projects[taxonomy_manager][download][branch] = 7.x-1.x
 ;projects[views_bulk_operations][download][url] = git://git.drupalcode.org/project/views_bulk_operations.git
 ;projects[views_bulk_operations][download][branch] = 7.x-3.x
 
-; Subscription feature
+; Subscription modules.
 
 projects[feeds][type] = module
 projects[feeds][download][type] = git
@@ -73,8 +73,7 @@ projects[wsclient][download][type] = git
 projects[wsclient][download][url] = git://git.drupalcode.org/project/wsclient.git
 projects[wsclient][download][branch] = 7.x-1.x
 
-
-; Processing feature
+; Processing modules.
 
 projects[rules][type] = module
 projects[rules][download][type] = git
@@ -86,7 +85,7 @@ projects[rules_autotag][download][type] = git
 projects[rules_autotag][download][url] = git://git.drupalcode.org/project/rules_autotag.git
 projects[rules_autotag][download][branch] = 7.x-1.x
 
-; Publishing feature
+; Publishing modules.
 
 projects[views][type] = module
 projects[views][download][type] = git
@@ -123,7 +122,7 @@ projects[push_hub][download][type] = git
 projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
 projects[push_hub][download][branch] = DRUPAL-7--1
 
-; Devel
+; Devel modules.
 
 projects[devel][type] = module
 projects[devel][download][type] = git

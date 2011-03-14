@@ -16,11 +16,6 @@ projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git
 projects[features][download][branch] = 7.x-1.x
 
-projects[diff][type] = module
-projects[diff][download][type] = git
-projects[diff][download][url] = git://git.drupalcode.org/project/diff.git
-projects[diff][download][branch] = 7.x-2.x
-
 ; Data
 
 projects[datastore][type] = module
@@ -140,6 +135,11 @@ projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = git://git.drupalcode.org/project/admin_menu.git
 ;projects[admin_menu][download][branch] = 7.x-3.x
+
+projects[diff][type] = module
+projects[diff][download][type] = git
+projects[diff][download][url] = git://git.drupalcode.org/project/diff.git
+projects[diff][download][branch] = 7.x-2.x
 
 ; Add austrofeedr feature modules.
 

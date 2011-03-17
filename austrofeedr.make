@@ -10,6 +10,9 @@ projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
+; Entity Add taxonomy query callbacks http://drupal.org/node/1093918#comment-4214402
+projects[feeds][entity][] = "http://drupal.org/files/issues/entity_taxonomy_query_callback.patch"
+
 
 projects[features][type] = module
 projects[features][download][type] = git
@@ -127,8 +130,6 @@ projects[push_hub][download][branch] = DRUPAL-7--1
 projects[devel][type] = module
 projects[devel][download][type] = git
 projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
-;WS Client - Rules debug action http://drupal.org/node/1085234
-projects[devel][patch][] = "http://drupal.org/files/issues/devel_rules_debug.patch"
 
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git

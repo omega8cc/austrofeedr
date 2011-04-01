@@ -10,8 +10,6 @@ projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
-; Entity Add taxonomy query callbacks http://drupal.org/node/1093918#comment-4214402
-projects[feeds][entity][] = "http://drupal.org/files/issues/entity_taxonomy_query_callback.patch"
 
 
 projects[features][type] = module
@@ -29,6 +27,7 @@ projects[datastore][download][url] = ssh://gitosis@git.epiqo.com:50022/datastore
 projects[date][type] = module
 projects[date][download][type] = git
 projects[date][download][url] = git://git.drupalcode.org/project/date.git
+projects[date][download][branch] = 7.x-2.x
 
 projects[link][type] = module
 projects[link][download][type] = git
@@ -98,7 +97,7 @@ projects[views][download][branch] = 7.x-3.x
 projects[ctools][type] = module
 projects[ctools][download][type] = git
 projects[ctools][download][url] = git://git.drupalcode.org/project/ctools.git
-;projects[ctools][download][branch] = 7.x-1.x
+projects[ctools][download][branch] = 7.x-1.x
 
 projects[openlayers][type] = module
 projects[openlayers][download][type] = git
@@ -124,6 +123,13 @@ projects[push_hub][type] = module
 projects[push_hub][download][type] = git
 projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
 projects[push_hub][download][branch] = DRUPAL-7--1
+
+; User modules
+
+projects[views_bulk_operations][type] = module
+projects[views_bulk_operations][download][type] = git
+projects[views_bulk_operations][download][url] = git://git.drupalcode.org/project/views_bulk_operations.git
+projects[views_bulk_operations][download][branch] = 7.x-3.x
 
 ; Devel modules.
 

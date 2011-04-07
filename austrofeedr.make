@@ -93,6 +93,13 @@ projects[views][type] = module
 projects[views][download][type] = git
 projects[views][download][url] = git://git.drupalcode.org/project/views.git
 projects[views][download][branch] = 7.x-3.x
+; Views underscores http://drupal.org/node/1111258#comment-4299256
+projects[views][patch][] = "http://drupal.org/files/issues/allow_underscores-1111258-20_0.patch"
+
+projects[views_data_export][type] = module
+projects[views_data_export][download][type] = git
+projects[views_data_export][download][url] = git://git.drupalcode.org/project/views_data_export.git
+projects[views_data_export][download][branch] = 7.x-3.x
 
 projects[ctools][type] = module
 projects[ctools][download][type] = git

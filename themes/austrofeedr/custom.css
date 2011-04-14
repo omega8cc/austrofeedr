@@ -11,8 +11,8 @@ iframe {
 .page-messstellen-popup #page-wrapper, .page-messstellen-popup #main-wrapper  {
   min-width: 350px;
   max-width: 350px;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 240px;
+  max-height: 240px;
 }
 
 

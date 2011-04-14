@@ -93,8 +93,6 @@ projects[views][type] = module
 projects[views][download][type] = git
 projects[views][download][url] = git://git.drupalcode.org/project/views.git
 projects[views][download][branch] = 7.x-3.x
-; Views bug http://drupal.org/node/1126756
-projects[views][download][revision] = 3e51ad76b02ee90e06b7f798e8a28ca3e136fdb3
 ; Views render tokens http://drupal.org/node/1115222#comment-4347126
 projects[views][patch][] = "http://drupal.org/files/issues/views_openlayers_render_tokens.patch"
 

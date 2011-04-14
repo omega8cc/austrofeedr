@@ -1,0 +1,26 @@
+iframe {
+  border: none;
+}
+
+
+.page-messstellen-popup #main, .page-messstellen-popup #content {
+  margin: 0;
+  width: 350px;
+}
+
+.page-messstellen-popup #page-wrapper, .page-messstellen-popup #main-wrapper  {
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+
+.page-messstellen-popup .field, .page-messstellen-popup .node-teaser {
+  margin: 0;  padding: 0; border: none;
+}
+
+.page-messstellen-popup .link-wrapper {
+  display: none;
+}
+

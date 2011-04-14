@@ -156,6 +156,11 @@ projects[diff][download][type] = git
 projects[diff][download][url] = git://git.drupalcode.org/project/diff.git
 projects[diff][download][branch] = 7.x-2.x
 
+projects[advanced_help][type] = module
+projects[advanced_help][download][type] = git
+projects[advanced_help][download][url] = git://git.drupalcode.org/project/advanced_help.git
+projects[advanced_help][download][branch] = 7.x-1.x
+
 ; Add austrofeedr feature modules.
 
 projects[austrofeedr_features][type] = module

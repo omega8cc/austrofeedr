@@ -27,6 +27,7 @@ function block_update() {
 
 function austrofeedr_preprocess_views_view($variables) {
   if($variables['name'] == 'hw_messstellen_map') {
-
+    drupal_add_js(drupal_get_path('theme', 'austrofeedr') .
+      '/js/austrofeedr_openlayers.js', 'file');
   }
 }

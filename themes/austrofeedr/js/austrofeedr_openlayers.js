@@ -3,9 +3,9 @@ Drupal.openlayers.getStyleMap = function(map, layername) {
 	var styleMap = Drupal.openlayers.getStyleMapOld(map, layername);
 	
 	var trendRule = {
-		"steigend": {pointRadius: 10},
+		"steigend": {pointRadius: 8.5},
 		"gleichbleibend": {pointRadius: 7.5},
-		"fallend": {pointRadius: 5}
+		"fallend": {pointRadius: 6.5}
 	};
 	styleMap.addUniqueValueRules("default", "field_hw_trend", trendRule);
 	

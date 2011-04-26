@@ -11,7 +11,6 @@ projects[entity][download][type] = git
 projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
 
-
 projects[features][type] = module
 projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git

@@ -13,6 +13,7 @@ iframe {
   max-width: 350px;
   min-height: 240px;
   max-height: 240px;
+  overflow: hidden;
 }
 
 

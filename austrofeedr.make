@@ -205,3 +205,4 @@ projects[advanced_help][download][branch] = 7.x-1.x
 projects[austrofeedr_features][type] = module
 projects[austrofeedr_features][download][type] = git
 projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git
+

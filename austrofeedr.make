@@ -122,8 +122,6 @@ projects[views][download][url] = git://git.drupalcode.org/project/views.git
 projects[views][download][branch] = 7.x-3.x
 ;projects[views][download][tag] = 7.x-3.0-beta3
 ;projects[views][download][revision] = 21216dd16b295a27b405aa6a3ed5a0e6b23de848
-; Views render tokens http://drupal.org/node/1115222#comment-4347126
-projects[views][patch][] = "http://drupal.org/files/issues/views_openlayers_render_tokens.patch"
 
 projects[views_data_export][type] = module
 projects[views_data_export][download][type] = git
@@ -150,8 +148,6 @@ projects[openlayers][download][url] = git://git.drupalcode.org/project/openlayer
 projects[openlayers][download][branch] = 7.x-2.x
 ;projects[openlayers][download][tag] = 7.x-2.0-alpha1
 ;projects[openlayers][download][revision] = a0b2935c3ac161708ded74062ef45b4f319455dd
-; OpenLayers TMS baselayer functionality http://drupal.org/node/1159328
-projects[openlayers][patch][] = "http://drupal.org/files/issues/openlayers_tms_baselayer.patch"
 
 projects[geofield][type] = module
 projects[geofield][download][type] = git
@@ -166,12 +162,14 @@ projects[geofield][download][url] = git://github.com/developmentseed/geofield.gi
 
 projects[pusher][type] = module
 projects[pusher][download][type] = git
-projects[pusher][download][url] = git://github.com/dasjo/pusher.git
-projects[pusher][download][branch] = DRUPAL-7--1
+;projects[pusher][download][url] = git://github.com/dasjo/pusher.git
+projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
+projects[pusher][download][branch] = DRUPAL-7--1  
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git
-projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
+;projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
+projects[push_hub][download][url] = http://git.drupal.org/sandbox/dasjo/1167132.git 
 projects[push_hub][download][branch] = DRUPAL-7--1
 
 ; User modules

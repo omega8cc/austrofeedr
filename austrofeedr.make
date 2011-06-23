@@ -165,6 +165,7 @@ projects[pusher][download][type] = git
 ;projects[pusher][download][url] = git://github.com/dasjo/pusher.git
 projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
 projects[pusher][download][branch] = DRUPAL-7--1  
+projects[pusher][download][revision] = 57f53c75feb0ed99803d922d10ff66d65eaf41b1
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git

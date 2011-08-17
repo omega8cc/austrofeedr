@@ -17,6 +17,7 @@ if [ -f austrofeedr.make ]; then
   echo "  [2] Build a full distribution"
   echo "  [3] git pull all modules & core + run drush updatedb"
   echo "  [4] git status all modules & core"
+  echo "  [5] git clean all modules"
   echo -e "Selection: \c"
   read SELECTION
 
@@ -52,6 +53,14 @@ if [ -f austrofeedr.make ]; then
     done
     echo "Status core"
     (cd ../../ && echo $(pwd) && git status)  #status core
+    
+  elif [ $SELECTION = "5" ]; then
+    
+    echo "Clean modules"
+    for dir in modules/*
+    do
+      (cd $dir && echo $(pwd) && git clean -f) #clean modules
+    done
 
   else
    echo "Invalid selection."

@@ -42,7 +42,7 @@ projects[link][download][branch] = 7.x-1.x
 ;projects[link][download][tag] = 7.x-1.0-alpha3
 ;projects[link][download][revision] = 32b432867a9126cd17dfacefb8d2eb451b49f291
 ; Link support hook_entity_property_info() http://drupal.org/node/1079782
-projects[link][patch][] = "http://drupal.org/files/issues/1079782-link-entity_property.patch"
+projects[link][patch][] = "http://drupal.org/files/issues/1079782-link-entity_property-7.patch"
 
 projects[references][type] = module
 projects[references][download][type] = git
@@ -165,7 +165,6 @@ projects[pusher][download][type] = git
 ;projects[pusher][download][url] = git://github.com/dasjo/pusher.git
 projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
 projects[pusher][download][branch] = DRUPAL-7--1  
-projects[pusher][download][revision] = 57f53c75feb0ed99803d922d10ff66d65eaf41b1
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git

@@ -2,6 +2,11 @@
 core = 7.x
 api = 2
 
+; core patch
+; http://drupal.org/node/1158114#comment-4863562
+; registry rebuild
+; http://drupal.org/project/registry_rebuild
+
 ; For now use the latest dev version of some modules via Git.
 
 ; Infrastructure

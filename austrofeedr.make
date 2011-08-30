@@ -178,7 +178,7 @@ projects[push_hub][download][url] = http://git.drupal.org/sandbox/dasjo/1167132.
 projects[push_hub][download][branch] = DRUPAL-7--1
 
 projects[panels][download][type] = git
-projects[panels][download][url] = git://git.drupalcode.org/project/openlayers.git
+projects[panels][download][url] = git://git.drupalcode.org/project/panels.git
 projects[panels][download][branch] = 7.x-3.x
 ;projects[panels][download][tag] = 7.x-3.0-alpha3
 

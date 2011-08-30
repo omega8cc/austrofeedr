@@ -73,8 +73,8 @@ projects[taxonomy_manager][download][branch] = 7.x-1.x
 projects[feeds][type] = module
 projects[feeds][download][type] = git
 projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
-projects[feeds][download][branch] = 7.x-2.x
-;projects[feeds][download][tag] = 7.x-2.0-alpha3
+;projects[feeds][download][branch] = 7.x-2.x
+projects[feeds][download][tag] = 7.x-2.0-rc1
 ;projects[feeds][download][revision] = def536880bc0123e914aae271aea3b5fa56ea955
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"
@@ -177,6 +177,11 @@ projects[push_hub][download][type] = git
 projects[push_hub][download][url] = http://git.drupal.org/sandbox/dasjo/1167132.git 
 projects[push_hub][download][branch] = DRUPAL-7--1
 
+projects[panels][download][type] = git
+projects[panels][download][url] = git://git.drupalcode.org/project/openlayers.git
+projects[panels][download][branch] = 7.x-3.x
+;projects[panels][download][tag] = 7.x-3.0-alpha3
+
 ; User modules
 
 projects[views_bulk_operations][type] = module
@@ -193,7 +198,7 @@ projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = git://git.drupalcode.org/project/admin_menu.git
-;projects[admin_menu][download][branch] = 
+;projects[admin_menu][download][branch] = 7.x-3.x
 
 projects[diff][type] = module
 projects[diff][download][type] = git

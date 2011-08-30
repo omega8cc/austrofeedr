@@ -73,8 +73,8 @@ projects[taxonomy_manager][download][branch] = 7.x-1.x
 projects[feeds][type] = module
 projects[feeds][download][type] = git
 projects[feeds][download][url] = git://git.drupalcode.org/project/feeds.git
-;projects[feeds][download][branch] = 7.x-2.x
-projects[feeds][download][tag] = 7.x-2.0-rc1
+projects[feeds][download][branch] = 7.x-2.x
+;projects[feeds][download][tag] = 7.x-2.0-rc1
 ;projects[feeds][download][revision] = def536880bc0123e914aae271aea3b5fa56ea955
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"

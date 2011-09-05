@@ -15,7 +15,8 @@ Drupal.openlayers.getStyleMap = function(map, layername) {
 			"erhöhte Wasserführung": {fillColor: '#AEB404'},
 			"Hochwasserstufe 1": {fillColor: '#FF8000'},
 			"Hochwasserstufe 2": {fillColor: '#FE2E2E'},
-			"Hochwasserstufe 3": {fillColor: '#FA58F4'}
+			"Hochwasserstufe 3": {fillColor: '#FA58F4'},
+			"Unbestimmt": {fillColor: '#BBBBBB'}
 		};
 		styleMap.addUniqueValueRules("default", "field_hw_status", statusRule);
 			

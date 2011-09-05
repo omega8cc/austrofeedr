@@ -154,10 +154,10 @@ projects[openlayers][download][branch] = 7.x-2.x
 ;projects[openlayers][download][tag] = 7.x-2.0-alpha1
 ;projects[openlayers][download][revision] = a0b2935c3ac161708ded74062ef45b4f319455dd
 
-projects[geofield][type] = module
-projects[geofield][download][type] = git
-projects[geofield][download][url] = git://github.com/dasjo/geofield.git
-projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
+;projects[geofield][type] = module
+;projects[geofield][download][type] = git
+;projects[geofield][download][url] = git://github.com/dasjo/geofield.git
+;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
 ;projects[geofield][download][revision] = 00f4eb834493c0ef58f3dcaeb33ab8e41fab69e5
 
 ;projects[mapbox][type] = module

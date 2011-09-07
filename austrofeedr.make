@@ -111,6 +111,8 @@ projects[rules][download][url] = git://git.drupalcode.org/project/rules.git
 projects[rules][download][branch] = 7.x-2.x
 ;projects[rules][download][tag] = 7.x-2.0-beta1
 ;projects[rules][download][revision] = 26cff801cb39ba7e3f4a3583f87c7d14ffa343b5
+; Rules remain dirty even if they've been fixed via the UI http://drupal.org/node/1270042#comment-4956176
+projects[rules][patch][] = http://drupal.org/files/issues/rules_fix_dirty.patch
 
 projects[rules_autotag][type] = module
 projects[rules_autotag][download][type] = git
@@ -167,13 +169,11 @@ projects[openlayers][download][branch] = 7.x-2.x
 
 projects[pusher][type] = module
 projects[pusher][download][type] = git
-;projects[pusher][download][url] = git://github.com/dasjo/pusher.git
 projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
 projects[pusher][download][branch] = DRUPAL-7--1  
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git
-;projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
 projects[push_hub][download][url] = http://git.drupal.org/sandbox/dasjo/1167132.git 
 projects[push_hub][download][branch] = DRUPAL-7--1
 

@@ -25,6 +25,11 @@ projects[features][download][branch] = 7.x-1.x
 ;projects[features][download][tag] = 7.x-1.0-beta2
 ;projects[features][download][revision] = acac0a5c127211a7c1b8c6019abbdeeefb4f1f1f
 
+projects[field_group][type] = module
+projects[field_group][download][type] = git
+projects[field_group][download][url] = git://git.drupalcode.org/project/field_group.git
+projects[field_group][download][branch] = 7.x-1.x
+
 ; Data modules.
 
 projects[datastore][type] = module
@@ -158,9 +163,13 @@ projects[openlayers][download][branch] = 7.x-2.x
 
 ;projects[geofield][type] = module
 ;projects[geofield][download][type] = git
-;projects[geofield][download][url] = git://github.com/dasjo/geofield.git
-;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
-;projects[geofield][download][revision] = 00f4eb834493c0ef58f3dcaeb33ab8e41fab69e5
+;projects[geofield][download][url] = http://git.drupal.org/project/geofield.git
+;projects[geofield][download][branch] = 7.x-1.x
+
+;projects[libraries][type] = module
+;projects[libraries][download][type] = git
+;projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
+;projects[libraries][download][branch] = 7.x-2.x
 
 ;projects[mapbox][type] = module
 ;projects[mapbox][download][type] = git

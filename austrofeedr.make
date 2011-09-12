@@ -124,6 +124,11 @@ projects[rules_autotag][download][branch] = 7.x-1.x
 ;projects[rules_autotag][download][tag] = 
 ;projects[rules_autotag][download][revision] = 57d4c3300adee09909ab1e708c5b5a962e262fcd
 
+projects[rules_link][type] = module
+projects[rules_link][download][type] = git
+projects[rules_link][download][url] = git://git.drupalcode.org/project/rules_link.git
+projects[rules_link][download][branch] = 7.x-1.x
+
 ; Publishing modules.
 
 projects[views][type] = module

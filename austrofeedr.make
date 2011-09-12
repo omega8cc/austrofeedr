@@ -116,8 +116,6 @@ projects[rules][download][url] = git://git.drupalcode.org/project/rules.git
 projects[rules][download][branch] = 7.x-2.x
 ;projects[rules][download][tag] = 7.x-2.0-beta1
 ;projects[rules][download][revision] = 26cff801cb39ba7e3f4a3583f87c7d14ffa343b5
-; Rules remain dirty even if they've been fixed via the UI http://drupal.org/node/1270042#comment-4956176
-projects[rules][patch][] = http://drupal.org/files/issues/rules_fix_dirty.patch
 
 projects[rules_autotag][type] = module
 projects[rules_autotag][download][type] = git
@@ -166,10 +164,10 @@ projects[openlayers][download][branch] = 7.x-2.x
 ;projects[geofield][download][url] = http://git.drupal.org/project/geofield.git
 ;projects[geofield][download][branch] = 7.x-1.x
 
-;projects[libraries][type] = module
-;projects[libraries][download][type] = git
-;projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-;projects[libraries][download][branch] = 7.x-2.x
+projects[libraries][type] = module
+projects[libraries][download][type] = git
+projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
+projects[libraries][download][branch] = 7.x-2.x
 
 ;projects[mapbox][type] = module
 ;projects[mapbox][download][type] = git

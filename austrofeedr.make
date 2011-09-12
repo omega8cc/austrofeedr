@@ -203,6 +203,7 @@ projects[views_bulk_operations][download][branch] = 7.x-3.x
 projects[devel][type] = module
 projects[devel][download][type] = git
 projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
+projects[devel][download][branch] = 7.x-1.x
 
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git

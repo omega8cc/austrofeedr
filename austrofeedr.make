@@ -184,10 +184,11 @@ projects[libraries][download][branch] = 7.x-2.x
 ;projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
 ;projects[mapbox][download][branch] = 7.x-2.x
 
+;libraries[openlayers_themes][type] = theme
 libraries[openlayers_themes][destination] = "themes"
 libraries[openlayers_themes][download][type] = git
 libraries[openlayers_themes][download][url] = git://github.com/developmentseed/openlayers_themes.git
-libraries[openlayers_themes][download][branch] = master
+;libraries[openlayers_themes][download][branch] = master
 
 projects[pusher][type] = module
 projects[pusher][download][type] = git

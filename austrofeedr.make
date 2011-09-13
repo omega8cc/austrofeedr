@@ -187,7 +187,9 @@ projects[libraries][download][branch] = 7.x-2.x
 ;libraries[openlayers_themes][type] = theme
 libraries[openlayers_themes][destination] = "themes"
 libraries[openlayers_themes][download][type] = git
-libraries[openlayers_themes][download][url] = https://github.com/developmentseed/openlayers_themes.git
+; Add cloud-popup-relative.png to Dark theme http://drupal.org/node/928268 
+libraries[openlayers_themes][download][url] = https://github.com/pigletto/openlayers_themes.git
+;libraries[openlayers_themes][download][url] = https://github.com/developmentseed/openlayers_themes.git
 ;libraries[openlayers_themes][download][branch] = master
 
 projects[pusher][type] = module

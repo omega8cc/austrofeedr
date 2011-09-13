@@ -32,6 +32,11 @@ projects[field_group][download][branch] = 7.x-1.x
 
 ; Data modules.
 
+projects[synonyms][type] = module
+projects[synonyms][download][type] = git
+projects[synonyms][download][url] = git://git.drupalcode.org/project/synonyms.git
+projects[synonyms][download][branch] = 7.x-1.x
+
 projects[datastore][type] = module
 projects[datastore][download][type] = git
 ; @todo wait for official datastore releaese http://drupal.org/project/datastore

@@ -169,10 +169,10 @@ projects[openlayers][download][branch] = 7.x-2.x
 ;projects[openlayers][download][tag] = 7.x-2.0-alpha1
 ;projects[openlayers][download][revision] = a0b2935c3ac161708ded74062ef45b4f319455dd
 
-;projects[geofield][type] = module
-;projects[geofield][download][type] = git
-;projects[geofield][download][url] = http://git.drupal.org/project/geofield.git
-;projects[geofield][download][branch] = 7.x-1.x
+projects[geofield][type] = module
+projects[geofield][download][type] = git
+projects[geofield][download][url] = http://git.drupal.org/project/geofield.git
+projects[geofield][download][branch] = 7.x-1.x
 
 projects[libraries][type] = module
 projects[libraries][download][type] = git

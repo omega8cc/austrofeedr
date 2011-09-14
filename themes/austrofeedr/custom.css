@@ -25,3 +25,26 @@ iframe {
   display: none;
 }
 
+.node-hw-messstelle.node-full .field-name-field-hw-geoposition {
+  float: right;
+}
+
+/* messstellen teaser listings */
+
+.node-hw-messstelle.node-teaser .field::after {
+  clear: left;
+}
+
+.node-hw-messstelle.node-teaser .field-name-field-hw-geoposition {
+  float: right;
+}
+
+/*
+.view-hw-messstellen-list .views-field-field-hw-geoposition {
+  float: right;
+}
+
+.view-hw-messstellen-list .views-field-field-hw-werte {
+  float: right;
+}
+*/

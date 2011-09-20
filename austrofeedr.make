@@ -20,7 +20,7 @@ projects[entity][download][branch] = 7.x-1.x
 ; Support taxonomy_get_parents_all http://drupal.org/node/1283840
 projects[entity][patch][] = "http://drupal.org/files/issues/entity_taxonomy_parents_all.patch"
 ; Entity tokens not created for multi-value fields http://drupal.org/node/1058856
-projects[entity][patch][] = "http://drupal.org/files/issues/entity_list_tokens.patch"
+projects[entity][patch][] = "http://drupal.org/files/issues/entity_list_tokens_2.patch"
 
 projects[features][type] = module
 projects[features][download][type] = git

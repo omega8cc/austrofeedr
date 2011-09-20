@@ -17,6 +17,10 @@ projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
 ;projects[entity][download][tag] = 7.x-1.0-beta8 
 ;projects[entity][download][revision] = e42cbe70266f87b84ab2c30b4e7a4fcc38bea087
+; Support taxonomy_get_parents_all http://drupal.org/node/1283840
+projects[link][patch][] = "http://drupal.org/files/issues/entity_taxonomy_parents_all.patch"
+; Entity tokens not created for multi-value fields http://drupal.org/node/1058856
+projects[link][patch][] = "http://drupal.org/files/issues/entity_list_tokens.patch"
 
 projects[features][type] = module
 projects[features][download][type] = git

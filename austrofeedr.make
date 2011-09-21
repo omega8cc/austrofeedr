@@ -210,6 +210,8 @@ projects[panels][download][type] = git
 projects[panels][download][url] = git://git.drupalcode.org/project/panels.git
 projects[panels][download][branch] = 7.x-3.x
 ;projects[panels][download][tag] = 7.x-3.0-alpha3
+; Undefined index: page in panels_simple_cache_get_id http://drupal.org/node/1212670
+projects[panels][patch][] = "http://drupal.org/files/issues/panels-simple-cache-1212670-2_0.patch"
 
 ; User modules
 

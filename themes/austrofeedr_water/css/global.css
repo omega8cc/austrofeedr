@@ -16,6 +16,26 @@ body {
   color: #3e260a;
 }
 
+body.page-messstellen-popup {
+  background: none;
+  min-width: 10px;
+}
+
+body.page-messstellen-popup h1#page-title,
+body.page-messstellen-popup .breadcrumb {
+  display: none;
+}
+
+body.page-messstellen-popup #region-content {
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+body.page-messstellen-popup .container-12 .grid-12,
+body.page-messstellen-popup .container-12 {
+  width: auto;
+}
+
 h1, h2, h3 {
   font-family: Georgia;
   color: #58585a;
@@ -38,6 +58,10 @@ h2.node-title {
 
 .section-content {
  background: url(../images/main_bg.jpg) left top repeat-x #ffffff;
+}
+
+.page-messstellen-popup .section-content {
+  background: none;
 }
 
 .site-name-slogan h6 {
@@ -155,6 +179,10 @@ li a:link {
 
 .region-content-inner {
   margin: 37px 37px 20px
+}
+
+.page-messstellen-popup .region-content-inner {
+  margin: 0px;
 }
 
 .section-footer {

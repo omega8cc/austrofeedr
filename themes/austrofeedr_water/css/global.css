@@ -44,6 +44,13 @@ body.page-messstellen-popup .node-links {
   display: none;
 }
 
+.openlayers-tooltip-name a,
+.openlayers-tooltip-name a:link,
+.openlayers-tooltip-name a:visited {
+  color: #005A8E;
+  font-size: 1.2em;
+}
+
 .field-name-field-hw-bezirk .field-item {
   margin-right: 5px;
 }

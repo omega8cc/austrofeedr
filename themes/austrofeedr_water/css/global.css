@@ -235,3 +235,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
 .node-hw-messstelle.node-teaser .field-name-field-hw-geoposition {
   float: right;
 }
+
+.node-hw-messstelle.node-teaser {
+  margin-bottom: 2em;
+}

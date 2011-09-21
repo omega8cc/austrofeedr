@@ -221,3 +221,17 @@ body.toolbar-drawer {padding-top: 0em !important;}
   width: 160px;
   padding:5px;
 }
+
+/* messstellen listings */
+
+.node-hw-messstelle.node-full .field-name-field-hw-geoposition {
+  float: right;
+}
+
+.node-hw-messstelle.node-teaser .field::after {
+  clear: left;
+}
+
+.node-hw-messstelle.node-teaser .field-name-field-hw-geoposition {
+  float: right;
+}

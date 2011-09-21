@@ -1,0 +1,182 @@
+/* This file will hold the main styles for your website. */
+
+html, body, ul, li, div, a, img, h1, h2, h3, h4, h5, h6, input, p, ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  border: 0px;
+}
+
+body {
+  background: top center no-repeat url(../images/bg.jpg) #ffffff;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: #3e260a;
+}
+
+h1, h2, h3 {
+  font-family: Georgia;
+  color: #58585a;
+  font-weight: normal;
+  border-bottom: 1px solid #e5e6e6;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+h1 {
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+}
+
+h2,
+h2.node-title {
+  font-size: 1.5em;
+}
+
+.section-content {
+ background: url(../images/main_bg.jpg) left top repeat-x #ffffff;
+}
+
+.site-name-slogan h6 {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.region-branding-inner {
+  position: relative;
+  height: 22em;
+  background: url(../images/header_bg.jpg) left top repeat-x transparent;
+}
+
+.logo-img {
+  position: absolute;
+  left: 23px;
+  top: 0px;
+  float: none;
+}
+
+.site-name-slogan {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  color: #49c1ec;
+}
+
+#block-menu-menu-secondary-menu {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  font-size: 0.9em;
+}
+
+#block-menu-menu-secondary-menu a.active {
+  color: #87888a; 
+}
+
+#block-menu-menu-secondary-menu ul.menu {
+  list-style-type: none;
+}
+
+#block-menu-menu-secondary-menu ul.menu li {
+  float: left;
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #87888a;
+  line-height: 1em;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+#block-menu-menu-secondary-menu ul.menu li.last {
+  border-right: none;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 0em;
+}
+
+a,
+a:link, 
+a:visited,
+li a:link {
+  text-decoration: none;
+  color: #87888a;
+}
+
+.navigation {
+  position: relative;
+}
+
+.navigation ul.main-menu {
+  list-style-type: none;
+  position: absolute;
+  left: 38px;
+  bottom: 0px;
+}
+
+.navigation ul.main-menu li {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-right: 0em;
+}
+
+.navigation ul.main-menu a {
+  color: #ffffff;
+  border-radius: 8px 8px 0 0;
+  display: inline-block;
+  margin: 0 0.1em 0 0;
+  padding: 0 1em;
+  text-align: center;
+  background-color: #49C1EC;
+  line-height: 40px;
+}
+
+.navigation ul.main-menu a.active {
+  background-color: #005a8e;
+}
+
+.navigation ul.inline li {
+  padding: 0em;
+}
+
+.navigation a:link {
+  color: #ffffff;
+}
+
+.region-content {
+  background-color: #ffffff;
+}
+
+.region-content-inner {
+  margin: 37px 37px 20px
+}
+
+.section-footer {
+  min-height: 165px;
+  height:auto !important;
+  height:165px;
+  background: url(../images/footer_bg.jpg) left bottom repeat-x #005f97;
+  margin-top: 50px;
+  padding-top: 1px;
+}
+
+.zone-footer {
+  color: #b1b3b4;
+  border-top: 1px solid #618ca6;
+  margin-top: 14px;
+  padding-top: 8px;
+  padding-right: 5px;
+  font-size: 0.9em;
+}
+
+.region-footer-first-inner {
+  text-align: right;
+}
+
+
+

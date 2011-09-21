@@ -36,6 +36,10 @@ body.page-messstellen-popup .container-12 {
   width: auto;
 }
 
+body.page-messstellen-popup .region-preface-first-inner {
+  display: none;
+}
+
 h1, h2, h3 {
   font-family: Georgia;
   color: #58585a;

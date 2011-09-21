@@ -44,10 +44,7 @@ body.page-messstellen-popup .node-links {
   display: none;
 }
 
-.openlayers-tooltip-name a,
-.openlayers-tooltip-name a:link,
-.openlayers-tooltip-name a:visited {
-  color: #005A8E;
+.openlayers-tooltip-name a{
   font-size: 1.2em;
 }
 
@@ -146,7 +143,7 @@ a:link,
 a:visited,
 li a:link {
   text-decoration: none;
-  color: #87888a;
+  color: #00598e;
 }
 
 .navigation {

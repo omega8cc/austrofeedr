@@ -17,6 +17,10 @@ projects[entity][download][url] = git://git.drupalcode.org/project/entity.git
 projects[entity][download][branch] = 7.x-1.x
 ;projects[entity][download][tag] = 7.x-1.0-beta8 
 ;projects[entity][download][revision] = e42cbe70266f87b84ab2c30b4e7a4fcc38bea087
+; Support taxonomy_get_parents_all http://drupal.org/node/1283840
+projects[entity][patch][] = "http://drupal.org/files/issues/entity_taxonomy_parents_all.patch"
+; Entity tokens not created for multi-value fields http://drupal.org/node/1058856
+projects[entity][patch][] = "http://drupal.org/files/issues/entity_list_tokens_2.patch"
 
 projects[features][type] = module
 projects[features][download][type] = git
@@ -25,7 +29,17 @@ projects[features][download][branch] = 7.x-1.x
 ;projects[features][download][tag] = 7.x-1.0-beta2
 ;projects[features][download][revision] = acac0a5c127211a7c1b8c6019abbdeeefb4f1f1f
 
+projects[field_group][type] = module
+projects[field_group][download][type] = git
+projects[field_group][download][url] = git://git.drupalcode.org/project/field_group.git
+projects[field_group][download][branch] = 7.x-1.x
+
 ; Data modules.
+
+projects[synonyms][type] = module
+projects[synonyms][download][type] = git
+projects[synonyms][download][url] = git://git.drupalcode.org/project/synonyms.git
+projects[synonyms][download][branch] = 7.x-1.x
 
 projects[datastore][type] = module
 projects[datastore][download][type] = git
@@ -79,7 +93,7 @@ projects[feeds][download][branch] = 7.x-2.x
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"
 ; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_11.patch"
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_integration_0.patch"
 
 projects[job_scheduler][type] = module
 projects[job_scheduler][download][type] = git
@@ -119,6 +133,11 @@ projects[rules_autotag][download][branch] = 7.x-1.x
 ;projects[rules_autotag][download][tag] = 
 ;projects[rules_autotag][download][revision] = 57d4c3300adee09909ab1e708c5b5a962e262fcd
 
+projects[rules_link][type] = module
+projects[rules_link][download][type] = git
+projects[rules_link][download][url] = git://git.drupalcode.org/project/rules_link.git
+projects[rules_link][download][branch] = 7.x-1.x
+
 ; Publishing modules.
 
 projects[views][type] = module
@@ -154,26 +173,36 @@ projects[openlayers][download][branch] = 7.x-2.x
 ;projects[openlayers][download][tag] = 7.x-2.0-alpha1
 ;projects[openlayers][download][revision] = a0b2935c3ac161708ded74062ef45b4f319455dd
 
-;projects[geofield][type] = module
-;projects[geofield][download][type] = git
-;projects[geofield][download][url] = git://github.com/dasjo/geofield.git
-;projects[geofield][download][url] = git://github.com/developmentseed/geofield.git
-;projects[geofield][download][revision] = 00f4eb834493c0ef58f3dcaeb33ab8e41fab69e5
+projects[geofield][type] = module
+projects[geofield][download][type] = git
+projects[geofield][download][url] = http://git.drupal.org/project/geofield.git
+projects[geofield][download][branch] = 7.x-1.x
+
+projects[libraries][type] = module
+projects[libraries][download][type] = git
+projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
+projects[libraries][download][branch] = 7.x-2.x
 
 ;projects[mapbox][type] = module
 ;projects[mapbox][download][type] = git
 ;projects[mapbox][download][url] = git://git.drupalcode.org/project/mapbox.git
 ;projects[mapbox][download][branch] = 7.x-2.x
 
+;libraries[openlayers_themes][type] = theme
+libraries[openlayers_themes][destination] = "themes"
+libraries[openlayers_themes][download][type] = git
+; Add cloud-popup-relative.png to Dark theme http://drupal.org/node/928268 
+libraries[openlayers_themes][download][url] = https://github.com/pigletto/openlayers_themes.git
+;libraries[openlayers_themes][download][url] = https://github.com/developmentseed/openlayers_themes.git
+;libraries[openlayers_themes][download][branch] = master
+
 projects[pusher][type] = module
 projects[pusher][download][type] = git
-;projects[pusher][download][url] = git://github.com/dasjo/pusher.git
 projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
 projects[pusher][download][branch] = DRUPAL-7--1  
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git
-;projects[push_hub][download][url] = git://github.com/dasjo/push_hub.git
 projects[push_hub][download][url] = http://git.drupal.org/sandbox/dasjo/1167132.git 
 projects[push_hub][download][branch] = DRUPAL-7--1
 
@@ -181,6 +210,8 @@ projects[panels][download][type] = git
 projects[panels][download][url] = git://git.drupalcode.org/project/panels.git
 projects[panels][download][branch] = 7.x-3.x
 ;projects[panels][download][tag] = 7.x-3.0-alpha3
+; Undefined index: page in panels_simple_cache_get_id http://drupal.org/node/1212670
+projects[panels][patch][] = "http://drupal.org/files/issues/panels-simple-cache-1212670-2_0.patch"
 
 ; User modules
 
@@ -194,6 +225,7 @@ projects[views_bulk_operations][download][branch] = 7.x-3.x
 projects[devel][type] = module
 projects[devel][download][type] = git
 projects[devel][download][url] = git://git.drupalcode.org/project/devel.git
+projects[devel][download][branch] = 7.x-1.x
 
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git

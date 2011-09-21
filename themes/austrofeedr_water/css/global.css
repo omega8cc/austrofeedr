@@ -40,6 +40,14 @@ body.page-messstellen-popup .region-preface-first-inner {
   display: none;
 }
 
+body.page-messstellen-popup .node-links {
+  display: none;
+}
+
+.field-name-field-hw-bezirk .field-item {
+  margin-right: 5px;
+}
+
 h1, h2, h3 {
   font-family: Georgia;
   color: #58585a;

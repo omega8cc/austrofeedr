@@ -242,11 +242,18 @@ body.toolbar-drawer {padding-top: 0em !important;}
   padding:5px;
 }
 
-/* messstellen listings */
+/* messstelle node */
 
 .node-hw-messstelle.node-full .field-name-field-hw-geoposition {
   float: right;
 }
+
+.node-hw-messstelle.node-full .group-hw-info .fieldset-legend {
+  display: none;
+}
+
+/* messstellen listings */
+
 
 .node-hw-messstelle.node-teaser .field::after {
   clear: left;

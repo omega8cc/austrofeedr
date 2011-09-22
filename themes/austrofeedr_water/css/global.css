@@ -297,6 +297,10 @@ body.toolbar-drawer {padding-top: 0em !important;}
 
 /* about features listing */
 
+.view-af-about-feature-listing h3 {
+  clear: left;  
+}
+
 .view-af-about-feature-listing .views-row {
   margin-bottom: 1.5em;
   clear: left;
@@ -304,4 +308,8 @@ body.toolbar-drawer {padding-top: 0em !important;}
 
 .view-af-about-feature-listing .views-field-field-af-feature-image {
   float: left;
+}
+
+.view-af-about-feature-listing .views-field-body, .view-af-about-feature-listing .views-field-field-af-feature-link {
+  margin-left: 220px;
 }

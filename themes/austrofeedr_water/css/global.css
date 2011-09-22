@@ -296,13 +296,14 @@ body.toolbar-drawer {padding-top: 0em !important;}
 
 .view-hw-geo-navigation {
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .view-hw-geo-navigation .views-row, .view-hw-geo-navigation .views-field {
   float: left;
   width: 200px;
   clear: none;
+  margin-bottom: 0.5em;
 }
 .pane-hw-bezirk-updates {
   clear: left;

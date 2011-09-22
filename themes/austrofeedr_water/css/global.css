@@ -48,7 +48,7 @@ body.page-messstellen-popup .node-links {
   font-size: 1.2em;
 }
 
-.field-name-field-hw-bezirk .field-item {
+.field-type-taxonomy-term-reference .field-item {
   margin-right: 5px;
 }
 
@@ -248,6 +248,60 @@ body.toolbar-drawer {padding-top: 0em !important;}
   float: right;
 }
 
-.node-hw-messstelle.node-teaser {
+.node-teaser {
+  margin-bottom: 1.5em;
+}
+
+/* user */
+.secondary-menu {
+  position: absolute;
+  left: 970px;
+  top: -20px;
+  width: 200px;
+}
+
+.secondary-menu a, .secondary-menu a:link {
+  color: #00598E;
+}
+
+/* geo navigation */
+
+.view-hw-geo-navigation {
+  margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.view-hw-geo-navigation .views-row, .view-hw-geo-navigation .views-field {
+  float: left;
+  width: 200px;
+}
+.pane-hw-bezirk-updates {
+  clear: left;
+}
+
+.node.node-hw-messstelle .field-name-field-hw-geoposition {
+  float: right;
+}
+
+
+/* views */
+.views-row {
+  margin-bottom: 1.5em;
+  clear: left;
+}
+
+.views-field-title {
+  font-size: 1.25em;
+}
+
+
+/* about features listing */
+
+.view-af-about-feature-listing .views-row {
+  margin-bottom: 1.5em;
+  clear: left;
+}
+
+.view-af-about-feature-listing .views-field-field-af-feature-image {
+  float: left;
 }

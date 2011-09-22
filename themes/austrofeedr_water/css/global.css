@@ -296,7 +296,6 @@ body.toolbar-drawer {padding-top: 0em !important;}
 
 .view-hw-geo-navigation {
   margin-top: 2em;
-  margin-bottom: 4em;
 }
 
 .view-hw-geo-navigation .views-row, .view-hw-geo-navigation .views-field {
@@ -307,6 +306,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
 }
 .pane-hw-bezirk-updates {
   clear: left;
+  padding-top: 2em;
 }
 
 .node.node-hw-messstelle .field-name-field-hw-geoposition {

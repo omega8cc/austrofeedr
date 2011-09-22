@@ -341,6 +341,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
 
 .view-af-about-feature-listing .views-field-field-af-feature-image {
   float: left;
+  margin-bottom: 2em;
 }
 
 .view-af-about-feature-listing .views-field-title,

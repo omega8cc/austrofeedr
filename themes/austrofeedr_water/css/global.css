@@ -256,12 +256,14 @@ body.toolbar-drawer {padding-top: 0em !important;}
   float: right;
 }
 
-.page-taxonomy .node-hw-messstelle.node-teaser .field-name-field-hw-werte {
+.page-taxonomy .node-hw-messstelle.node-teaser .field-name-field-hw-werte,
+.view-hw-messstellen-list .node-hw-messstelle.node-teaser .field-name-field-hw-werte {
   float: right;
   margin-right: 75px;
 }
 
-.page-taxonomy .node-hw-messstelle.node-teaser .node-links {
+.page-taxonomy .node-hw-messstelle.node-teaser .node-links,
+.view-hw-messstellen-list .node-hw-messstelle.node-teaser .node-links {
   position: relative;
   top: -80px;
 }

@@ -302,6 +302,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
 .view-hw-geo-navigation .views-row, .view-hw-geo-navigation .views-field {
   float: left;
   width: 200px;
+  clear: none;
 }
 .pane-hw-bezirk-updates {
   clear: left;

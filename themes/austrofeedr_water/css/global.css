@@ -241,6 +241,9 @@ body.toolbar-drawer {padding-top: 0em !important;}
   width: 160px;
   padding:5px;
 }
+.region-preface-first-inner .menu {
+  margin-left: 1em; 
+}
 
 /* messstelle node */
 

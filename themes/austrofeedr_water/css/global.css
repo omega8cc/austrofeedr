@@ -310,6 +310,8 @@ body.toolbar-drawer {padding-top: 0em !important;}
   float: left;
 }
 
-.view-af-about-feature-listing .views-field-body, .view-af-about-feature-listing .views-field-field-af-feature-link {
+.view-af-about-feature-listing .views-field-title,
+.view-af-about-feature-listing .views-field-body,
+.view-af-about-feature-listing .views-field-field-af-feature-link {
   margin-left: 220px;
 }

@@ -256,6 +256,17 @@ body.toolbar-drawer {padding-top: 0em !important;}
   float: right;
 }
 
+.page-taxonomy .node-hw-messstelle.node-teaser .field-name-field-hw-werte {
+  float: right;
+  margin-right: 75px;
+}
+
+.page-taxonomy .node-hw-messstelle.node-teaser .node-links {
+  position: relative;
+  top: -80px;
+}
+
+
 .node-teaser {
   margin-bottom: 1.5em;
 }

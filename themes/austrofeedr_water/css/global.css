@@ -72,7 +72,7 @@ h2.node-title {
   font-size: 1.5em;
 }
 
-p, ul, ol {
+.zone-content p, .zone-content ul, .zone-content ol {
   margin-bottom: 1em;
 }
 
@@ -306,7 +306,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
 /* about features listing */
 
 .view-af-about-feature-listing h3 {
-  clear: left;  
+  clear: left;
 }
 
 .view-af-about-feature-listing .views-row {

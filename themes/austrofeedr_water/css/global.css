@@ -72,6 +72,14 @@ h2.node-title {
   font-size: 1.5em;
 }
 
+p, ul, ol {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  margin-left: 2em;
+}
+
 .section-content {
  background: url(../images/main_bg.jpg) left top repeat-x #ffffff;
 }
@@ -313,5 +321,5 @@ body.toolbar-drawer {padding-top: 0em !important;}
 .view-af-about-feature-listing .views-field-title,
 .view-af-about-feature-listing .views-field-body,
 .view-af-about-feature-listing .views-field-field-af-feature-link {
-  margin-left: 220px;
+  margin-left: 230px;
 }

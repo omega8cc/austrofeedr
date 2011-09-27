@@ -60,8 +60,6 @@ projects[link][download][url] = git://git.drupalcode.org/project/link.git
 projects[link][download][branch] = 7.x-1.x
 ;projects[link][download][tag] = 7.x-1.0-alpha3
 ;projects[link][download][revision] = 32b432867a9126cd17dfacefb8d2eb451b49f291
-; Link support hook_entity_property_info() http://drupal.org/node/1079782
-projects[link][patch][] = "http://drupal.org/files/issues/1079782-link-entity_property-7.patch"
 
 projects[references][type] = module
 projects[references][download][type] = git
@@ -91,9 +89,12 @@ projects[feeds][download][branch] = 7.x-2.x
 ;projects[feeds][download][tag] = 7.x-2.0-rc1
 ;projects[feeds][download][revision] = def536880bc0123e914aae271aea3b5fa56ea955
 ; Feeds add a generic entity processor http://drupal.org/node/1033202#comment-3975772
-projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"
+; projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_entity_processor_1.patch"
 ; Feeds enable modules to customize imports http://drupal.org/node/1005128#comment-3970616
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds_rules_integration_0.patch"
+; Don't subscribe on push notifications http://drupal.org/node/1291942
+projects[feeds][patch][] = "http://drupal.org/files/issues/push_hub_bug_d7_2.patch"
+
 
 projects[job_scheduler][type] = module
 projects[job_scheduler][download][type] = git

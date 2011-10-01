@@ -266,17 +266,7 @@ body.toolbar-drawer {padding-top: 0em !important;}
   float: right;
 }
 
-.page-taxonomy .node-hw-messstelle.node-teaser .field-name-field-hw-werte,
-.view-hw-messstellen-list .node-hw-messstelle.node-teaser .field-name-field-hw-werte {
-  float: right;
-  margin-right: 75px;
-}
 
-.page-taxonomy .node-hw-messstelle.node-teaser .node-links,
-.view-hw-messstellen-list .node-hw-messstelle.node-teaser .node-links {
-  position: relative;
-  top: -80px;
-}
 
 
 .node-teaser {
@@ -348,4 +338,57 @@ body.toolbar-drawer {padding-top: 0em !important;}
 .view-af-about-feature-listing .views-field-body,
 .view-af-about-feature-listing .views-field-field-af-feature-link {
   margin-left: 230px;
+}
+
+/* Messstellen List */
+.view-hw-messstellen-list .views-exposed-form {
+  background-color: #f5f7f9;
+  padding: 5px 20px;
+}
+
+.view-hw-messstellen-list .view-filters {
+  border-bottom: 1px solid #E5E6E6;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.node-hw-messstelle h2 {
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.node-hw-messstelle .field-label {
+  color: #00598e;
+}
+
+.node-hw-messstelle .field-name-field-hw-geoposition {
+  background: url(../images/map_bg.jpg) center top no-repeat transparent;
+  padding: 0px 20px 25px 20px;
+  margin-top: -35px;
+}
+
+.page-taxonomy .node-hw-messstelle.node-teaser .field-name-field-hw-werte,
+.view-hw-messstellen-list .node-hw-messstelle.node-teaser .field-name-field-hw-werte {
+  margin-left: 50px;
+}
+
+.page-taxonomy .node-hw-messstelle.node-teaser .node-links,
+.view-hw-messstellen-list .node-hw-messstelle.node-teaser .node-links {
+  position: relative;
+  top: -40px;
+}
+
+.node-links ul {
+  margin-left: 0em;
+}
+
+.node-links ul li {
+  padding-left: 0em;
+}
+
+.node-links ul li a {
+  font-weight: bold;
+  background: url(../images/bullet.gif) center left no-repeat transparent;
+  padding-left: 18px;
+  border-bottom: 1px solid;
 }

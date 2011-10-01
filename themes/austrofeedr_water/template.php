@@ -17,3 +17,10 @@ function austrofeedr_water_preprocess_views_view($variables) {
       '/js/austrofeedr_openlayers.js', 'file');
   }
 }
+
+function austrofeedr_water_preprocess_node(&$vars) {
+  if (!empty($vars['node']->referencing_field)) {
+    $node = $vars['node'];
+    $vars['theme_hook_suggestions'][] = 'node__reference__' . $node->type;
+  }
+}

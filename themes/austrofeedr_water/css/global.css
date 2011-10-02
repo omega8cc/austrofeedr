@@ -392,3 +392,38 @@ body.toolbar-drawer {padding-top: 0em !important;}
   padding-left: 18px;
   border-bottom: 1px solid;
 }
+
+/* Frontpage */
+.pane-hw-bezirk-updates .node-update h2 {
+  font-size: 1.2em;
+}
+
+.pane-hw-bezirk-updates .pane-title {
+  margin-bottom: 1em;
+}
+
+.pane-hw-bezirk-updates .col-first {
+  padding-right: 1em;
+}
+
+.pane-hw-bezirk-updates .col-last {
+  padding-left: 1em;
+}
+
+.view-hw-messstellen-map .views-exposed-form {
+  background-color: #f5f7f9;
+  padding: 5px 20px;
+  margin-bottom: 1em;
+}
+
+/* Frontpage */
+body.front .region-content {
+  background: none;
+}
+
+body.front .view-hw-messstellen-map .view-content {
+  background: url(../images/bigmap_bg.png) center top no-repeat transparent;
+  padding: 40px;
+  width: 866px;
+  margin-left: -40px;
+}

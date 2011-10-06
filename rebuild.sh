@@ -18,6 +18,7 @@ if [ -f austrofeedr.make ]; then
   echo "  [3] git pull all modules & core + run drush updatedb"
   echo "  [4] git status all modules & core"
   echo "  [5] git clean all modules"
+  echo "  [6] git log -1 all modules"
   echo -e "Selection: \c"
   read SELECTION
 
@@ -60,6 +61,14 @@ if [ -f austrofeedr.make ]; then
     for dir in modules/*
     do
       (cd $dir && echo $(pwd) && git clean -f) #clean modules
+    done
+    
+  elif [ $SELECTION = "6" ]; then
+    
+    echo "Git log -1 modules"
+    for dir in modules/*
+    do
+      (cd $dir && echo $(pwd) && git log -1) #git log -1 modules
     done
 
   else

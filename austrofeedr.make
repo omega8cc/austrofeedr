@@ -7,7 +7,6 @@ api = 2
 ; registry rebuild
 ; http://drupal.org/project/registry_rebuild
 
-; For now use the latest dev version of some modules via Git.
 
 ; Infrastructure
 
@@ -43,9 +42,9 @@ projects[synonyms][download][revision] = 949472be5d105f12d89350271e07e2c56e1a92f
 
 projects[datastore][type] = module
 projects[datastore][download][type] = git
-; @todo wait for official datastore releaese http://drupal.org/project/datastore
-projects[datastore][download][url] = ssh://gitosis@git.epiqo.com:50022/datastore.git
-projects[datastore][download][revision] = a222433cdce62eb3c3290620b45007456f507c6c
+projects[datastore][download][url] = git://git.drupalcode.org/project/datastore.git
+projects[datastore][download][branch] = 7.x-1.x
+projects[datastore][download][revision] = 8c92b44768f3ad276fa11e6f6aaa28ca81ff3607
 
 projects[date][type] = module
 projects[date][download][type] = git
@@ -168,7 +167,6 @@ projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
 projects[libraries][download][revision] = 3c4e6f9c01333b1952f66b2320015f55af86aecc
 
-;libraries[openlayers_themes][type] = theme
 libraries[openlayers_themes][destination] = "themes"
 libraries[openlayers_themes][download][type] = git
 ; Add cloud-popup-relative.png to Dark theme http://drupal.org/node/928268 
@@ -227,5 +225,4 @@ projects[advanced_help][download][branch] = 7.x-1.x
 
 projects[austrofeedr_features][type] = module
 projects[austrofeedr_features][download][type] = git
-projects[austrofeedr_features][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr_features.git
- 
+projects[austrofeedr_features][download][url] = http://git.drupal.org/sandbox/dasjo/1293614.git

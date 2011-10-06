@@ -1,7 +1,6 @@
-; $Id: standard.info,v 1.1 2010/01/04 23:08:34 webchick Exp $
 name = austrofeedr
 description = Install austrofeedr distribution.
-version = VERSION
+version = 1.x
 core = 7.x
 
 ; Install the modules from the standard profile.
@@ -32,17 +31,6 @@ dependencies[] = austrofeedr_base_common
 dependencies[] = austrofeedr_base_subscription
 dependencies[] = austrofeedr_base_processing_autotag
 dependencies[] = austrofeedr_base_publishing
-
-; Install the austrofeedr hochwasser use case modules.
-dependencies[] = austrofeedr_hochwasser_base
-dependencies[] = austrofeedr_hochwasser_messstellen_import
-dependencies[] = austrofeedr_hochwasser_messstellen_map
-dependencies[] = austrofeedr_hochwasser_messwerte_list
-dependencies[] = austrofeedr_hochwasser_pegelaktuell_import
-dependencies[] = austrofeedr_hochwasser_processor
-
-; TODO, currently install manually because data import doesn't work during installation
-;dependencies[] = austrofeedr_hochwasser_data
 
 ; Install dev modules
 dependencies[] = admin_menu

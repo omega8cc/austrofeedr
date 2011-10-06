@@ -26,7 +26,6 @@ projects[features][type] = module
 projects[features][download][type] = git
 projects[features][download][url] = git://git.drupalcode.org/project/features.git
 projects[features][download][branch] = 7.x-1.x
-;projects[features][download][tag] = 7.x-1.0-beta2
 ;projects[features][download][revision] = acac0a5c127211a7c1b8c6019abbdeeefb4f1f1f
 
 projects[field_group][type] = module

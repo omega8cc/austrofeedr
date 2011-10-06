@@ -1,5 +1,5 @@
-name = austrofeedr
-description = Install austrofeedr distribution.
+name = Austrofeedr
+description = Install Austrofeedr distribution.
 version = 1.x
 core = 7.x
 

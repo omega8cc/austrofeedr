@@ -14,4 +14,4 @@ projects[drupal][download][branch] = 7.x
 ; Recursion will build the austrofeedr.make file found there for us.
 projects[austrofeedr][type] = profile
 projects[austrofeedr][download][type] = git
-projects[austrofeedr][download][url] = ssh://gitosis@git.epiqo.com:50022/austrofeedr.git
+projects[austrofeedr][download][url] = http://git.drupal.org/sandbox/dasjo/1301206.git

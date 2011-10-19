@@ -1,6 +1,5 @@
 name = Austrofeedr
 description = Install Austrofeedr distribution.
-version = 1.x
 core = 7.x
 
 ; Install the modules from the standard profile.
@@ -43,5 +42,3 @@ dependencies[] = diff
 dependencies[] = openlayers_ui
 dependencies[] = views_ui
 dependencies[] = wsclient_ui
-
-files[] = austrofeedr.profile

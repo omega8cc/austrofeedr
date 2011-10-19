@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# To use this command you must have `drush make`, `cvs` and `git` installed!
+# To use this command you must have `drush make` and `git` installed!
 #
 
 if [ ! $1 == "" ]; then

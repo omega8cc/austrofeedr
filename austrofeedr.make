@@ -174,9 +174,9 @@ libraries[openlayers_themes][download][url] = https://github.com/pigletto/openla
 
 projects[pusher][type] = module
 projects[pusher][download][type] = git
-projects[pusher][download][url] = http://git.drupal.org/sandbox/dasjo/1167118.git
-;projects[pusher][download][branch] = DRUPAL-7--1  
-projects[pusher][download][revision] = f0240fe69c7cd2d537484610e07292bf0a4309fd
+projects[pusher][download][url] = http://git.drupal.org/project/pusher.git
+projects[pusher][download][branch] = DRUPAL-7--1  
+;projects[pusher][download][revision] = f0240fe69c7cd2d537484610e07292bf0a4309fd
 
 projects[push_hub][type] = module
 projects[push_hub][download][type] = git
@@ -225,4 +225,7 @@ projects[advanced_help][download][branch] = 7.x-1.x
 
 projects[austrofeedr_features][type] = module
 projects[austrofeedr_features][download][type] = git
-projects[austrofeedr_features][download][url] = http://git.drupal.org/sandbox/dasjo/1293614.git
+projects[austrofeedr_features][download][url] = http://git.drupal.org/project/austrofeedr_features.git
+projects[austrofeedr_features][download][branch] = 7.x-1.x
+
+
